@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(max-width: 575px){
+   .item{
+       width: 100%;
+       margin: 0;
+   }
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+.nav-item{
+    padding-left: 7px;
+}  
+.nav-link{
+    color: #222222;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+}
+/* Start One section  */
+.section{
+    background-image: url(../images/banner_bg.png);
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.lye{
+    height:630px;
+    color:white;
+}
+.lye h6{
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: 400;
+}
+.lye h2{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.lye p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0px 20px;
+}
+.lye a{
+    line-height: 30px;
+    text-decoration: none;
+    background: #f3c300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+   
+}
+.hvr-bounce-to-right::before{
+    background-color:#cca405;
+    transition:1s ease-in-out;
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -ms-transition:1s ease-in-out;
+    -o-transition:1s ease-in-out;
+}
+.div{
+    background-color: rgb(0, 0, 20);
+    align-items: center;
+    padding: 40px 50px 40px;
+    display: flex;
+}
+.div h2{
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* ---------------------- */
+.lol{
+    padding-top: 200px ;
+}
+.book {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    margin: auto;
+    padding: 40px 50px 30px;
+    background-color: #04091e;
+    display: flex;
+    align-items: center;
+}
+
+.book div h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hvr-sweep-to-right::before {
+    background-color: #fd7e14;
+}
+
+.custinput {
+    background-color: transparent;
+    border: solid 1px #2b3146;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.boxcalender {
+    position: relative;
+}
+
+.calender {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+
+.nice-select {
+    background-color: transparent;
+    border: solid 1px #2b3146;
+    border-radius: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.list {
+    width: 100%;
+}
+
+.btnbook {
+    color: white;
+    background-color: #f3c300;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 6px 67px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btnbook:hover {
+    text-decoration: none;
+}
+/* ----------------------Start Hotel Accomodation */
+.title_color{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #222222;
+}
+.Hotel img:hover{
+    transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    transition: 1s ease-in-out ;
+    -webkit-transition: 1s ease-in-out ;
+    -moz-transition: 1s ease-in-out ;
+    -ms-transition: 1s ease-in-out ;
+    -o-transition: 1s ease-in-out ;
+}
+.Hotel a{
+    line-height: 30px;
+    text-decoration: none;
+    background: #f3c300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 25px;
+    position: absolute;
+    bottom: 100px;
+    left: 30%;
+}
+.Hotel h4{
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #222222;
+}
+.Hotel h5{
+    font-size: 24px;
+    line-height: 28px;
+    color: #52c5fd;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+/* ----------------------END Hotel Accomodation */
+/* ----------------------Start Icon */
+.icon{
+    background-image: url(../images/facilites_bg.png);
+    background-size: cover;
+    margin-top: 100px;
+}
+.title_w h2{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+.title_w p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+/* ----------------------END Icon */
+/* ----------------------Start Icon */
+.item{
+   
+    background-color: rgba(233, 227, 227, 0.5);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.item h4{
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 600;
+    padding-bottom: 18px;
+    color: #fff;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.item h4 i{
+    color: #f3c300;
+    font-size: 24px;
+    line-height: 38px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 20px;
+}
+.item p{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 18px;
+}
+/* ----------------------END Icon */
+/* ----------------------Start About Us */
+.us h2{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #222222;
+   margin-top: 60px;
+}
+.us p{
+    padding: 18px 0px 40px;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
+}
+.us a{
+    line-height: 30px;
+    text-decoration: none;
+    background: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+/* ----------------------END About Us */
+/* ----------------------Start Client */
+.Client{
+    background-color: cornsilk;
+    padding: 100px;
+}
+.one h2{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.one p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 0px;
+}
+.pan{
+    width:30%;
+    margin-right: 30px;
+    margin-left: 25px;
+    margin-top: 10%;    
+}
+.van p{
+    color: #8c8d9e;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    padding-top: 20px;
+}
+.van a{
+    text-decoration: none;
+}
+.van a h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.van i{
+    color: #f3c300;
+    font-size: 12px;
+    
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 1px;
+    margin-left: 15px;
+}
+/* ----------------------END Client*/
+/* ----------------------Start blog */
+.title h2{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #222222;
+}
+.title p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 0px;
+}
+
+.Trave img:hover{
+    transform: rotate(20deg);
+    -webkit-transform: rotate(100);
+    -moz-transform: rotate(100);
+    -ms-transform: rotate(100);
+    -o-transform: rotate(100);
+    transition: 1s ease-in-out ;
+    -webkit-transition: 1s ease-in-out ;
+    -moz-transition: 1s ease-in-out ;
+    -ms-transition: 1s ease-in-out ;
+    -o-transition: 1s ease-in-out ;
+}
+.Trave a{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid #eeeeee;
+    display: inline-block;
+    padding: 1px 18px;
+    text-align: center;
+    color: #222222;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Trave h4{
+    line-height: 24px;
+    padding: 10px 0px 13px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 0px;
+}
+.Trave p{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
+}
+.Trave h6{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* ----------------------END blog*/
+/* ----------------------Start footer */
+footer{
+    background-color: #04091e;
+    padding: 142px 0px;
+}
+.sold{
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(146, 136, 118);
+}
+footer h6{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.agency p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
+}
+.list_style{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.list_style li a{
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777
+}
+.list_style li a:hover{
+    color: darkorange;
+}
+.NEW p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777
+}
+.NEW input{
+    width: 100%;
+    border: 1px solid #333333;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 40px;
+    height: 40px;
+    color: #999999;
+    background: transparent;
+    padding-left: 20px;
+}
+.instafeed ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.instafeed ul li{
+    padding: 2px;
+}
+/* ----------------------END footer*/
